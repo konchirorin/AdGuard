@@ -1,3 +1,9 @@
+@@||adguard.com^$important
+@@||adtidy.org^$important
+@@||cloudflare.com^
+@@||github.com^
+
+
 # スパイウェア (解析･追跡)
 ||appsflyer.com^$important
 ||appsflyersdk.com^$important

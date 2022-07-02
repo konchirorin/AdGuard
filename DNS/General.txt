@@ -1,7 +1,7 @@
 !
 ! Title: Unique DNS filter
 ! Description: The filter is designed to make apps and the other well-known services that are considered dangerous, such as Simeji, TikTok, LINE, as safe as possible,<br> protect against information-gathering battles between large companies like GAFAM&Y, including well-known spyware,<br> and it can also to make apps such as Spotify as comfortable to use.<br> <br> Please understand that we may not be able to satisfy you.
-!
+! Last modified: 2022-07-02
 !
 !
 @@||adguard.com^$important

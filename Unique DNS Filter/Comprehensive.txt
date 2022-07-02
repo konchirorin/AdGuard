@@ -10,12 +10,11 @@
 *-ads.*
 */*ad*
 */*ads*
-!
 *metrics*$important
 ||tr.*^$important
 */*tr*
 
-# スパイウェア 解析･追跡
+# スパイウェア (解析･追跡)
 ||appsflyer.com^$important
 ||appsflyersdk.com^$important
 ||appsflyer-report.*.com^
@@ -108,11 +107,3 @@ play.googleapis.com
 ||microsoftadvertising.com^
 ||msads.net^
 ||msecn.net^
-
-# Yahoo!
-b*.yahoo.*
-*rd*yahoo.*
-||yahoodns.net^
-yads.*y*
-ybx.yahoo.*
-yeas.yahoo.*

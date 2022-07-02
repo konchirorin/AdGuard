@@ -1,0 +1,72 @@
+# 広告ブロックの前に
+@@login5.spotify.com
+||analytics*.spotify.com^$important
+assets.spotify.com
+bloodhound.spotify.com
+brandsinfo.spotify.com
+brandsnews.spotify.com
+*bug*.spotify.com^$important
+change.spotify.com
+cms*.spotify.com
+crashdump*.spotify.com$important
+labs.spotify.com
+links.spotify.com
+log*.spotify.com$important
+*partner*.spotify.com$important
+payment-callback.spotify.com
+pci.spotify.com
+pixel*.spotify.com
+||play.spotify.com^$beta
+player.spotify.com$beta
+||surveys.spotify.com^$important
+upgrade.scdn.co
+upgrade.spotify.com
+!
+apresolve.spotify.com$optional
+apresolve.gslb.spotify.com$optional
+dealer.spotify.com$optional
+global-dealer-ssl.spotify.com$optional
+
+# 広告呼び出しサーバ
+# gslb*
+# ash*
+# lon*
+# sto*
+! analytics-001.lon.spotify.com
+! sto1-crashdump-a1.sto.spotify.com
+! ads-sp-ash.cdn.spotify.com
+! ads-sp-lon.cdn.spotify.com
+! ads-sp-sto.cdn.spotify.com
+*ash*.spotify.com$important
+*lon*.spotify.com$important
+*sto*.spotify.*$important
+weblb-wg.*.spotify.com
+!
+||branch.io^
+||bounceexchange.com^
+||scorecardresearch.com^$important
+||spotxchange.com^$important
+||spotify.com/ad*^
+||spotify.com/api/*^$beta
+||spotify.com/mp3-ad/*^
+||spotify.com/sponsoredplaylist/*^
+!
+||spotify.com/facebook/*^$optional
+facebook-callback.spotify.com$optional
+fb-user-webhooks.spotify.com$optional
+||spotify.com/redeem/*^$beta
+||spotify.com/storage-resolve/*^$beta
+||spotify.com/user-customization-service/*^$beta
+
+# 広告サーバ
+@@audio4-fa.scdn.co$important
+||ad*spotify*^$important
+audio-*.scdn.co$important
+heads*.scdn.co
+mp3ad.scdn.co
+video*.scdn.co
+||audio*spotify*com*^$important
+||heads*.spotify.*^
+||video-*cdn*spotify*com*^$important
+||beta.spotify*.map.*.net^
+||prod.spotify*.map.*.net^

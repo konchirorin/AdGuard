@@ -1,7 +1,7 @@
 !
 ! Title: Unique DNS Filter
-! Description: ご満足いただけない場合もございますので、あらかじめご了承ください。Please understand that we may not be able to satisfy you.
-! TimeUpdated: 2022-07-01T00:00:00+00:00
+! Description: ご満足いただけない場合もございますので、あらかじめご了承ください。
+! Last modified: 2022-07-02T12:01:16.147Z
 !
 !
 !

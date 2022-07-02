@@ -1,6 +1,6 @@
 gdmf.apple.com
-mesu*apple.*important
-oscp*.apple.*$important
+mesu*apple.*
+oscp*.apple.*
 ppq.apple.com
 usw2-ppq-ext-prod.apple.com
 
@@ -13,4 +13,4 @@ world-gen.g.aaplimg.com
 certs.apple.com
 gsp*-ssl.ls.apple.*
 inappcheck.itunes.apple.com
-inappcheck-lb.itunes-apple.*
+inappcheck-lb.itunes-apple.com.akadns.net

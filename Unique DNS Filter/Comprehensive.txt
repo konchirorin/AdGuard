@@ -6,12 +6,6 @@
 ||gameanalytics.com^$important
 ||inner-active.mobi^$important
 ||snssdk.com^$important
-#
-||hotjar.com^$important
-||treasuredata.com^$important
-
-# 迷惑要素
-||adnxs.com^$important
 
 # Simeji
 ||creativeappnow.com^

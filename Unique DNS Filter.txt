@@ -1,10 +1,16 @@
+!
+! Title: Unique DNS filter
+! Description: The filter is designed to make apps and the other well-known services that are considered dangerous, such as Simeji, TikTok, LINE, as safe as possible,<br> protect against information-gathering battles between large companies like GAFAM&Y, including well-known spyware,<br> and it can also to make apps such as Spotify as comfortable to use.<br> <br> Please understand that we may not be able to satisfy you.
+!
+!
+!
 @@||adguard.com^$important
 @@||adtidy.org^$important
 @@||cloudflare.com^
 @@||github.com^
-
-
-
+!
+!
+!
 # WORD KILLER
 *adserver*
 *adservice*
@@ -18,9 +24,9 @@
 *metrics*$important
 ||tr.*^$important
 */*tr*
-
-
-
+!
+!
+!
 # スパイウェア (解析･追跡)
 ||appsflyer.com^$important
 ||appsflyersdk.com^$important
@@ -29,7 +35,7 @@
 ||gameanalytics.com^$important
 ||inner-active.mobi^$important
 ||snssdk.com^$important
-
+!
 # Simeji
 ||creativeappnow.com^
 *baidu*$important
@@ -40,10 +46,10 @@
 ||msj.simeji.me^$important
 ||statis.simeji.me^$important
 @@||api.simeji.me^
-
+!
 # Tiktok
 ||analytics.tiktok.com^
-
+!
 # LINE
 ||ad-center.line.me^
 ||crs-*.line.me^$important
@@ -63,10 +69,10 @@
 ! gwx.line.naver.jp
 ! legy-jp.line.naver.jp (広告確定)
 ! legy-jp-addr.line.naver.jp
-
+!
 # Twitter
 syndication.twitter.com
-
+!
 # Google
 *google*analytics*$important
 *analytic*google*
@@ -79,14 +85,14 @@ play.googleapis.com
 @@googleusercontent.com
 @@fcmtoken.googleapis.com
 @@play.google.com
-
+!
 # Apple
 @@||smoot.apple.com^
 @@||smoot*.aaplimg.com^
 @@xp.apple.com
 ||iadsdk.apple.com^
 ||origin-apple.com^
-
+!
 # Facebook
 ||atdmt.com^$important
 *facebook*
@@ -96,28 +102,28 @@ play.googleapis.com
 ||fbsbx.com^
 ||spot.im^
 @@*instagram*
-
+!
 # Amazon
 ||amazon-adsystem.com^
 ||mads.amazon.com^
 ||mobileanalytics.*.amazonaws.com^
-
+!
 # Microsoft
 ||ads.microsoft.com^
 ||events.data.microsoft.com^
 ||microsoftadvertising.com^
 ||msads.net^
 ||msecn.net^
-
+!
 # Yahoo!
 *rd*yahoo.*
 ||yahoodns.net^
 yads.*y*
 ybx.yahoo.*
 yeas.yahoo.*
-
-
-
+!
+!
+!
 # ADs
 @@||adjust.*^
 ! ||advertise.com^
@@ -165,9 +171,9 @@ googleadapis.l.google.com
 gstaticadssl.l.google.com
 pagead-googlehosted.l.google.com
 video-stats.l.google.com
-
-
-
+!
+!
+!
 # Spotify
 ||analytics*.spotify.com^$important
 assets.spotify.com

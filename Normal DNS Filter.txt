@@ -67,7 +67,7 @@
 ! うまくルールをつくる
 ! gw.line.naver.jp
 ! gwx.line.naver.jp
-! legy-jp.line.naver.jp ! 広告確定
+! legy-jp.line.naver.jp 
 ! legy-jp-addr.line.naver.jp
 
 # Twitter

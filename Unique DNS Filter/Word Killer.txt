@@ -1,0 +1,14 @@
+*adserver*
+*adservice*
+*advert*
+||ad*.*^
+*ads.*
+||ad-*^
+||ads-*^
+*-ad.*
+*-ads.*
+*/*ad*
+*/*ads*
+*metrics*$important
+||tr.*^$important
+*/*tr*

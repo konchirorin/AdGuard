@@ -1,1 +1,20 @@
-uniquely!
+# ルールのルール
+
+ワイルドカード* は 任意の文字列に値する
+ハッシュタグ# や 感嘆符! から始まる文字列はルールに含まない
+(ドットのないワイルドカードは意味合いが変わってくる。程よく細かく)
+
+*.example example
+||example.com^
+
+example.TLD　example.TLD.server.net
+example.*
+
+test.example　testexample
+test*example
+
+test-example-com.server.net
+test?example*
+
+google*.com*
+*google*

@@ -28,10 +28,10 @@ dealer.spotify.com$optional
 global-dealer-ssl.spotify.com$optional
 
 # 広告呼び出しサーバ
-# gslb*
-# ash*
-# lon*
-# sto*
+! gslb*
+! ash*
+! lon*
+! sto*
 ! analytics-001.lon.spotify.com
 ! sto1-crashdump-a1.sto.spotify.com
 ! ads-sp-ash.cdn.spotify.com

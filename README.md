@@ -5,6 +5,7 @@
 (ドットのないワイルドカードは意味合いが変わってくる。程よく細かく)
 
 
+
 *.example example
 ||example.com^
 

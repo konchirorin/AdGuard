@@ -16,5 +16,5 @@
 # google*.com*
 # *google*
 
-
-# 支障のなく洗練されたルールにしよう。
+! Title: * filter
+! Description: *

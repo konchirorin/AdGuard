@@ -1,5 +1,4 @@
 # 広告ブロックの前に
-@@login5.spotify.com
 ||analytics*.spotify.com^$important
 assets.spotify.com
 bloodhound.spotify.com
@@ -59,7 +58,6 @@ fb-user-webhooks.spotify.com$optional
 ||spotify.com/user-customization-service/*^$beta
 
 # 広告サーバ
-@@audio4-fa.scdn.co$important
 ||ad*spotify*^$important
 audio-*.scdn.co$important
 heads*.scdn.co
@@ -70,3 +68,7 @@ video*.scdn.co
 ||video-*cdn*spotify*com*^$important
 ||beta.spotify*.map.*.net^
 ||prod.spotify*.map.*.net^
+
+
+@@audio4-fa.scdn.co$important
+@@login5.spotify.com

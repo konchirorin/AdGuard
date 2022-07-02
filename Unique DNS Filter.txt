@@ -202,24 +202,20 @@ upgrade.spotify.com
 *ash*.spotify.com$important
 *lon*.spotify.com$important
 *sto*.spotify.*$important
-#
+||ad*spotify.com^$important
 ||branch.io^
 ||bounceexchange.com^
 ||scorecardresearch.com^
 ||spotxchange.com^
 ||spotx.tv^
 ||spotify.com/ad*^
-||spotify.com/api/*^ # beta
+||spotify.com/api/*^
 ||spotify.com/mp3-ad/*^
 ||spotify.com/redeem/*^
 ||spotify.com/sponsoredplaylist/*^
 ||spotify.com/storage-resolve/*^
 ||spotify.com/user-customization-service/*^
-#
 @@audio4-fa.scdn.co$important
-||ad*spotify.com^$important
-||beta.spotify*.map.*.net^
-||prod.spotify*.map.*.net^
 audio-*.scdn.co
 heads*.scdn.co
 mp3ad.scdn.co
@@ -227,3 +223,5 @@ video*.scdn.co
 ||audio*spotify*com*^$important
 ||heads*.spotify.*^
 ||video-*cdn*spotify*com*^$important
+||beta.spotify*.map.*.net^
+||prod.spotify*.map.*.net^

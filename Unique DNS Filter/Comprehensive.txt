@@ -91,3 +91,10 @@ play.googleapis.com
 ||microsoftadvertising.com^
 ||msads.net^
 ||msecn.net^
+
+# Yahoo!
+*rd*yahoo.*
+||yahoodns.net^
+yads.*y*
+ybx.yahoo.*
+yeas.yahoo.*

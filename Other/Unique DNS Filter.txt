@@ -1,18 +1,25 @@
-# 単語キラー
+@@||adguard.com^$important
+@@||adtidy.org^$important
+@@||cloudflare.com^
+@@||github.com^
+
+
+
+# WORD KILLER
 *adserver*
 *adservice*
 *advert*
-||ad*.*^
 *ads.*
 ||ad-*^
 ||ads-*^
 *-ad.*
 *-ads.*
-*/*ad*
 */*ads*
 *metrics*$important
 ||tr.*^$important
 */*tr*
+
+
 
 # スパイウェア (解析･追跡)
 ||appsflyer.com^$important
@@ -22,12 +29,6 @@
 ||gameanalytics.com^$important
 ||inner-active.mobi^$important
 ||snssdk.com^$important
-#
-||hotjar.com^$important
-||treasuredata.com^$important
-
-# 迷惑要素
-||adnxs.com^$important
 
 # Simeji
 ||creativeappnow.com^
@@ -51,7 +52,6 @@
 ||nelo2-col.linecorp.com^$important
 ||sch.line.me^$important
 ||uts-front.line-apps.com^$important
-||legy-backup.line.naver.jp^
 @a.line.me
 @@a-jp.line.me.akadns.net
 @@obs.line-scdn.net
@@ -61,7 +61,7 @@
 ! うまくルールをつくる
 ! gw.line.naver.jp
 ! gwx.line.naver.jp
-! legy-jp.line.naver.jp # 広告確
+! legy-jp.line.naver.jp (広告確定)
 ! legy-jp-addr.line.naver.jp
 
 # Twitter
@@ -90,6 +90,7 @@ play.googleapis.com
 # Facebook
 ||atdmt.com^$important
 *facebook*
+*/*facebook*
 ||fb.*^
 ||fbcdn.*^
 ||fbsbx.com^
@@ -108,26 +109,20 @@ play.googleapis.com
 ||msads.net^
 ||msecn.net^
 
+# Yahoo!
+*rd*yahoo.*
+||yahoodns.net^
+yads.*y*
+ybx.yahoo.*
+yeas.yahoo.*
 
 
-# inApp ADs
-||adgoogle.net^
-||googleads.*^
-||admobclick.*^
-*doubleclick*$important
-*googleadservices.*$important
-*googlestatisticalserver.*$important
-*googlesyndication.*$important
-*googletagmanager.*$important
-*googletagservices.*$important
-googleadapis.l.google.com
-gstaticadssl.l.google.com
-pagead-googlehosted.l.google.com
-video-stats.l.google.com
 
+# ADs
 @@||adjust.*^
 ! ||advertise.com^
 ! ||advertising.com^
+#
 ||adcolony.com^
 ||adform.*^
 ||admob.*^
@@ -157,13 +152,23 @@ video-stats.l.google.com
 ||unity3d.com^
 ||vungle.com^
 ||zucks.*^
+#
+||adgoogle.net^
+||admobclick.*^
+*doubleclick*$important
+*googleadservices.*$important
+*googlestatisticalserver.*$important
+*googlesyndication.*$important
+*googletagmanager.*$important
+*googletagservices.*$important
+googleadapis.l.google.com
+gstaticadssl.l.google.com
+pagead-googlehosted.l.google.com
+video-stats.l.google.com
 
 
 
-# Spotify ADs
-
-# # 広告ブロックの前に
-@@login5.spotify.com
+# Spotify
 ||analytics*.spotify.com^$important
 assets.spotify.com
 bloodhound.spotify.com
@@ -173,6 +178,8 @@ brandsnews.spotify.com
 change.spotify.com
 cms*.spotify.com
 crashdump*.spotify.com$important
+facebook-callback.spotify.com # optional
+fb-user-webhooks.spotify.com # optional
 labs.spotify.com
 links.spotify.com
 log*.spotify.com$important
@@ -180,22 +187,13 @@ log*.spotify.com$important
 payment-callback.spotify.com
 pci.spotify.com
 pixel*.spotify.com
-||play.spotify.com^$beta
-player.spotify.com$beta
+||play.spotify.com^ # beta
+player.spotify.com # beta
 ||surveys.spotify.com^$important
 upgrade.scdn.co
 upgrade.spotify.com
-!
-apresolve.spotify.com$optional
-apresolve.gslb.spotify.com$optional
-dealer.spotify.com$optional
-global-dealer-ssl.spotify.com$optional
-
-# # 広告呼び出しサーバ
-! gslb*
-! ash*
-! lon*
-! sto*
+*dealer*.spotify.com # optional
+#
 ! analytics-001.lon.spotify.com
 ! sto1-crashdump-a1.sto.spotify.com
 ! ads-sp-ash.cdn.spotify.com
@@ -204,33 +202,28 @@ global-dealer-ssl.spotify.com$optional
 *ash*.spotify.com$important
 *lon*.spotify.com$important
 *sto*.spotify.*$important
-weblb-wg.*.spotify.com
-!
+#
 ||branch.io^
 ||bounceexchange.com^
-||scorecardresearch.com^$important
-||spotxchange.com^$important
+||scorecardresearch.com^
+||spotxchange.com^
+||spotx.tv^
 ||spotify.com/ad*^
-||spotify.com/api/*^$beta
+||spotify.com/api/*^ # beta
 ||spotify.com/mp3-ad/*^
+||spotify.com/redeem/*^
 ||spotify.com/sponsoredplaylist/*^
-!
-||spotify.com/facebook/*^$optional
-facebook-callback.spotify.com$optional
-fb-user-webhooks.spotify.com$optional
-||spotify.com/redeem/*^$beta
-||spotify.com/storage-resolve/*^$beta
-||spotify.com/user-customization-service/*^$beta
-
-# # 広告サーバ
+||spotify.com/storage-resolve/*^
+||spotify.com/user-customization-service/*^
+#
 @@audio4-fa.scdn.co$important
-||ad*spotify*^$important
-audio-*.scdn.co$important
+||ad*spotify.com^$important
+||beta.spotify*.map.*.net^
+||prod.spotify*.map.*.net^
+audio-*.scdn.co
 heads*.scdn.co
 mp3ad.scdn.co
 video*.scdn.co
 ||audio*spotify*com*^$important
 ||heads*.spotify.*^
 ||video-*cdn*spotify*com*^$important
-||beta.spotify*.map.*.net^
-||prod.spotify*.map.*.net^

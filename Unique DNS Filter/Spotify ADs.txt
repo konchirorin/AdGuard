@@ -21,11 +21,12 @@ player.spotify.com$beta
 ||surveys.spotify.com^$important
 upgrade.scdn.co
 upgrade.spotify.com
-!
+#
 apresolve.spotify.com$optional
 apresolve.gslb.spotify.com$optional
 dealer.spotify.com$optional
 global-dealer-ssl.spotify.com$optional
+weblb-wg.*.spotify.com
 
 # 広告呼び出しサーバ
 ! gslb*
@@ -40,8 +41,7 @@ global-dealer-ssl.spotify.com$optional
 *ash*.spotify.com$important
 *lon*.spotify.com$important
 *sto*.spotify.*$important
-weblb-wg.*.spotify.com
-!
+#
 ||branch.io^
 ||bounceexchange.com^
 ||scorecardresearch.com^$important
@@ -50,7 +50,7 @@ weblb-wg.*.spotify.com
 ||spotify.com/api/*^$beta
 ||spotify.com/mp3-ad/*^
 ||spotify.com/sponsoredplaylist/*^
-!
+#
 ||spotify.com/facebook/*^$optional
 facebook-callback.spotify.com$optional
 fb-user-webhooks.spotify.com$optional

@@ -1,1 +1,123 @@
+@@||adguard.com^$important
+@@||adtidy.org^$important
+@@||cloudflare.com^
 
+
+# 単語キラー
+*adserver*
+*adservice*
+*advert*
+||ad*.*^
+*ads.*
+||ad-*^
+||ads-*^
+*-ad.*
+*-ads.*
+*/*ad*
+*/*ads*
+!
+*metrics*$important
+||tr.*^$important
+*/*tr*
+
+# スパイウェア (解析･追跡)
+||appsflyer.com^$important
+||appsflyersdk.com^$important
+||appsflyer-report.*.com^
+||amplitude.com^$important
+||gameanalytics.com^$important
+||inner-active.mobi^$important
+||snssdk.com^$important
+#
+||hotjar.com^$important
+||treasuredata.com^$important
+
+# 迷惑要素
+||adnxs.com^$important
+
+# Simeji
+||creativeappnow.com^
+*baidu*$important
+||wshifen.com^$important
+||huawei.com^$important
+||xiaomi.com^$important
+||aityping.simeji.me^$important
+||msj.simeji.me^$important
+||statis.simeji.me^$important
+@@||api.simeji.me^
+
+# Tiktok
+||analytics.tiktok.com^
+
+# LINE
+||ad-center.line.me^
+||crs-*.line.me^$important
+||ipv4only.arpa^$important
+||lan*.line.me^
+||nelo2-col.linecorp.com^$important
+||sch.line.me^$important
+||uts-front.line-apps.com^$important
+||legy-backup.line.naver.jp^
+@a.line.me
+@@a-jp.line.me.akadns.net
+@@obs.line-scdn.net
+@@static.line-scdn.net
+@@torimochi.line-apps.com
+@@vos.line-scdn.net
+! うまくルールをつくる
+! gw.line.naver.jp
+! gwx.line.naver.jp
+! legy-jp.line.naver.jp ! 広告確定
+! legy-jp-addr.line.naver.jp
+
+# Twitter
+syndication.twitter.com
+
+# Google
+*google*analytics*$important
+*analytic*google*
+||clients*.l.google.com^
+id.google.com
+id.l.google.com
+||firebaselogging-pa.googleapis.com^$important
+play.googleapis.com
+*2mdn*
+@@googleusercontent.com
+@@fcmtoken.googleapis.com
+@@play.google.com
+
+# Apple
+@@||smoot.apple.com^
+@@||smoot*.aaplimg.com^
+@@xp.apple.com
+||iadsdk.apple.com^
+||origin-apple.com^
+
+# Facebook
+||atdmt.com^$important
+*facebook*
+||fb.*^
+||fbcdn.*^
+||fbsbx.com^
+||spot.im^
+@@*instagram*
+
+# Amazon
+||amazon-adsystem.com^
+||mads.amazon.com^
+||mobileanalytics.*.amazonaws.com^
+
+# Microsoft
+||ads.microsoft.com^
+||events.data.microsoft.com^
+||microsoftadvertising.com^
+||msads.net^
+||msecn.net^
+
+# Yahoo!
+b*.yahoo.*
+*rd*yahoo.*
+||yahoodns.net^
+yads.*y*
+ybx.yahoo.*
+yeas.yahoo.*

@@ -59,7 +59,7 @@
 ||nelo2-col.linecorp.com^$important
 ||sch.line.me^$important
 ||uts-front.line-apps.com^$important
-@a.line.me
+@@a.line.me
 @@a-jp.line.me.akadns.net
 @@obs.line-scdn.net
 @@static.line-scdn.net

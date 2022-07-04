@@ -90,9 +90,10 @@ play.googleapis.com
 # Apple
 @@||smoot.apple.com^
 @@||smoot*.aaplimg.com^
+! ||itunes-apple.com^
+! ||origin-apple.com^
 @@xp.apple.com
 ||iadsdk.apple.com^
-||origin-apple.com^
 !
 # Facebook
 ||atdmt.com^$important
@@ -117,6 +118,7 @@ play.googleapis.com
 ||msecn.net^
 !
 # Yahoo!
+b94.yahoo.*
 *rd*yahoo.*
 ||yahoodns.net^
 yads.*y*

@@ -3,13 +3,16 @@
 # # fa　fastly
 # # cf　amazon cloudfront
 # # gc　google cloud cdn
+
 ! ||akadns.net^
 ! ||akahost.net^
 ! ||akamai.net^
 ! ||akamaiedge.net^
 ! ||edgekey.net^
+
 ! ||fastly.net^
 ! ||fastlylb.net^
+
 ! ||cloudfront.net^
 
 ! elb.amazonaws.com

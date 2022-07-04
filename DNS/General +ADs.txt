@@ -77,7 +77,6 @@ syndication.twitter.com
 # Google
 *google*analytics*$important
 *analytic*google*
-||clients*.l.google.com^
 id.google.com
 id.l.google.com
 ||firebaselogging-pa.googleapis.com^$important

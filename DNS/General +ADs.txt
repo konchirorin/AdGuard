@@ -1,7 +1,7 @@
 !
 ! Title: Unique DNS Filter
 ! Description: ご満足いただけない場合もございますので、あらかじめご了承ください。
-! Last modified: 2022-07-04T5:18:00Z
+! Last modified: 2022-07-04T5:24:00Z
 !
 !
 !
@@ -117,6 +117,7 @@ play.googleapis.com
 ||msecn.net^
 !
 # Yahoo!
+apple-finance.query.yahoo.com
 b94.yahoo.*
 *rd*yahoo.*
 ||yahoodns.net^

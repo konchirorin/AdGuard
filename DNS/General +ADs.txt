@@ -8,7 +8,6 @@
 @@||adguard.com^$important
 @@||adtidy.org^$important
 @@||cloudflare.com^
-@@||github.com^
 !
 !
 !

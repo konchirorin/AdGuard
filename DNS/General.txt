@@ -190,8 +190,8 @@ facebook-callback.spotify.com # optional
 fb-user-webhooks.spotify.com # optional
 labs.spotify.com
 links.spotify.com
-@@login5.spotify.com
-log*.spotify.com$important
+@@login5.spotify.com$important
+log*.spotify.com
 *partner*.spotify.com$important
 payment-callback.spotify.com
 pci.spotify.com

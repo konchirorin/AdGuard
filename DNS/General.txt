@@ -1,7 +1,7 @@
 !
 ! Title: Unique DNS Filter
 ! Description: ご満足いただけない場合もございますので、あらかじめご了承ください。
-! Last modified: 2022-07-04T6:15:00Z
+! Last modified: 2022-07-06T12:12:00Z
 !
 !
 !
@@ -190,6 +190,7 @@ facebook-callback.spotify.com # optional
 fb-user-webhooks.spotify.com # optional
 labs.spotify.com
 links.spotify.com
+@@login5.spotify.com
 log*.spotify.com$important
 *partner*.spotify.com$important
 payment-callback.spotify.com

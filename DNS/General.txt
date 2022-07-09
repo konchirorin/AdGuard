@@ -71,6 +71,7 @@
 ! legy-jp-addr.line.naver.jp
 !
 # Twitter
+ads-api.twitter.com
 syndication.twitter.com
 !
 # Google

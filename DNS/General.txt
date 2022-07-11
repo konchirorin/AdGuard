@@ -1,7 +1,8 @@
 !
 ! Title: Unique DNS Filter
 ! Description: ご満足いただけない場合もございますので、あらかじめご了承ください。
-! Last modified: 2022-07-09T1:48:00Z
+! Last modified: 2022-07-11T10:57:00Z
+! Homepage: raw.githubusercontent.com/konchirorin/AdGuard/main/DNS/Nullified.txt
 !
 !
 !

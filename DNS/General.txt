@@ -90,9 +90,9 @@ play.googleapis.com
 # Apple
 @@||smoot.apple.com^
 @@||smoot*.aaplimg.com^
+@@xp.apple.com
 ! ||itunes-apple.com^
 ! ||origin-apple.com^
-@@xp.apple.com
 ||iadsdk.apple.com^
 !
 # Facebook

@@ -1,7 +1,7 @@
 !
 ! Title: Unique DNS Filter
 ! Description: ご満足いただけない場合もございますので、あらかじめご了承ください。
-! Last modified: 2022-07-11T10:57:00Z
+! Last modified: 2022-07-11T11:20:00Z
 ! Homepage: raw.githubusercontent.com/konchirorin/AdGuard/main/DNS/Nullified.txt
 !
 !
@@ -179,6 +179,8 @@ video-stats.l.google.com
 !
 !
 # Spotify
+@@ipv4.scdnco.spotify.map.fastly.net
+! spotify.map.fastly.net
 ||analytics*.spotify.com^$important
 assets.spotify.com
 bloodhound.spotify.com

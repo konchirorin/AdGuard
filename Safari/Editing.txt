@@ -1,3 +1,4 @@
-google.*###tsf > div:first-child > div.A7Yvie.Epl37:first-child > div.zGVn2e:nth-child(*) > div.dRYYxd:last-child
+google.*###tsf > div:first-child > div.A7Yvie.Epl37:first-child > div.zGVn2e:nth-child(2) > div.dRYYxd:last-child
+google.*###tsf > div:first-child > div.A7Yvie.Epl37:first-child > div.zGVn2e:nth-child(3) > div.dRYYxd:last-child
 google.*###stUuGf > div > div.FAVrq.VDgVie.it9gVe.gdwOPe.mB14jb.eofmDb:last-child
 *twitter.com###layers > div.css-1dbjc4n.r-aqfbo4.r-1p0dtai.r-1d2f490.r-12vffkv.r-1xcajam.r-zchlnj:last-child

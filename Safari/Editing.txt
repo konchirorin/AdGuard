@@ -1,7 +1,4 @@
-! title: Editing
-!
 google.*###stUuGf > div > div.FAVrq.VDgVie.it9gVe.gdwOPe.mB14jb.eofmDb:last-child
 *twitter.com###layers > div.css-1dbjc4n.r-aqfbo4.r-1p0dtai.r-1d2f490.r-12vffkv.r-1xcajam.r-zchlnj > div.css-1dbjc4n.r-12vffkv > div.css-1dbjc4n.r-12vffkv
-!
 deepl.com###gatsby-focus-wrapper > div.cookieBanner-module--outer--NAOuo:last-child
 translate.google.*##c-wiz.zQTmif.SSPGKf.RvYhPd.BIdYQ.aL9XFd:nth-child(5) > div.T4LgNb:first-child > div.WFnNle:nth-child(2) > c-wiz.MOkH4e.BSw7K.iYelWb.yF6Zo.JMkwm > div.BdXKac:nth-child(7)

@@ -1,7 +1,7 @@
 !
 ! Title: Unique DNS Filter
 ! Description: ご満足いただけない場合もございますので、あらかじめご了承ください。
-! Last modified: 2022-07-11T18:33:00Z
+! Last modified: 2022-07-15T18:00:00Z
 ! Homepage: https://raw.githubusercontent.com/konchirorin/AdGuard/main/DNS/Nullified.txt
 !
 !
@@ -120,6 +120,7 @@ play.googleapis.com
 !
 # Yahoo!
 apple-finance.query.yahoo.com
+||dsb.yahoo.co.jp^
 b94.yahoo.*
 *rd*yahoo.*
 ||yahoodns.net^
